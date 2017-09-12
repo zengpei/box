@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width-device-width,initial-scale=1,user-scalable=0">
+<head>
+<title>普通宝箱-额外收益</title>
+<link rel="stylesheet" style="css/text" href="box.css">
+<script>
+function adaption(doc, win) {
+			var docEl = doc.documentElement,
+				resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+				recalc = function () {
+					var clientWidth = docEl.clientWidth;
+					if (!clientWidth) return;
+					docEl.style.fontSize = (100 * clientWidth / 750) + 'px';
+				};
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false);
+			doc.addEventListener('DOMContentLoaded', recalc, false);
+		}
+		adaption(document, window)
+	</script>
+	<script type="text/javascript">
+		//获取触发点dom对象
+		var toggle = document.querySelector('#toggle')
+		//获取要隐藏和显示的dom对象
+		var extension = document.querySelector('#extension')
+		//添加click事件监听器
+		toggle.addEventListener('click', function () {
+			//toggle元素被点击后，执行这个方法
+
+			if (extension.style.display == 'none') {
+				extension.style.display = ''
+			} else {
+				extension.style.display = 'none'
+			}
+		})
+</script>
+</head>
+<body>
+<div class="navigation">
+</div>
+<div class="background">
+	
+</div>
+</body>
+</html>
