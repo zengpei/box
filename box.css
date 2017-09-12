@@ -3,5 +3,4 @@
 *{font-family:"微软雅黑",Sans-serif;}
 body{height: 100%;width: 100%;}
 .navigation{height: 0.45rem;width: 100%;background-color: #293859;}
-.background{height:100%;width: 100%;}
-.background .picture{background-size: 100%;background-image:url(image/background.png);height: 6.1rem;width: 100%;}
+.background{height:100%;width: 100%;background-size: 100%;background-image:url(image/background.png);}
