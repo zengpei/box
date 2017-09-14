@@ -2,7 +2,7 @@
 *{margin:0;}
 *{font-family:"微软雅黑",Sans-serif;}
 body{height: 100%;width: 100%;}
-.navigation{height: 0.9rem;width: 100%;background-color: #293859;}
+.navigation{height:1.18rem;width: 100%;background-color: #293859;}
 .background{height:100%;width: 100%;background-size: 100%;background-image:url(image/background.png);background-repeat: no-repeat;}
 .background .point_out{padding-top: 0.92rem;width: 60%;margin-left: auto;margin-right: auto;height: 0.44rem;}
 .background .point_out .font{font-size: 0.4rem;text-align: center;color:#fff;line-height: 0.44rem;}
@@ -15,10 +15,10 @@ body{height: 100%;width: 100%;}
 .background .share{padding-top: 0.46rem;height: 1.12rem;width: 4.76rem;margin-left: auto;margin-right: auto;}
 .background .share img{height: 100%;width: 100%background-size:100%;}
 .background .box_content{margin-top:2rem;height: 3rem;width: 6.5rem;margin-right: auto;margin-left: auto;background-color: #e9e0ce;}
-.background .box_content .detail{padding-top: 0.4rem;height: 0.28rem;width: 80%;margin-right: auto;margin-left: auto;}
+.background .box_content .detail{padding-top: 0.2rem;height: 0.28rem;width: 90%;margin-right: auto;margin-left: auto;}
 .background .box_content .detail .font{font-size: 0.24rem;line-height: 0.28rem;text-align: center;color: #666;}
 .background .box_content .detail .span{color:orange;font-size: 0.3rem;}
-.background .box_content .box{width: 6rem;height: 1.56rem;padding-top: 0.54rem;margin-left: auto;margin-right: auto;}
+.background .box_content .box{width: 6rem;height: 1.56rem;padding-top: 0.5rem;margin-left: auto;margin-right: auto;}
 .background .box_content .box .date{height: 1.56rem;width: 0.8rem;float: left;}
 .background .box_content .box .date .one{height: 0.68rem;width: 0.8rem;background-image: url(image/boxOne@1x.png);background-size: 100%;position: relative;float: left;}
 .background .box_content .box .date .one .Oval{position: absolute;top: 0.5rem;left: 0.6rem;width: 0.28rem;height: 0.28rem;background-image: url(image/Oval@1x.png);background-size: 100%;}
@@ -27,6 +27,12 @@ body{height: 100%;width: 100%;}
 .background .box_content .box .date .day_m .font{font-size: 0.24rem;color:#666;text-align: center;}
 .background .box_content .box .small{height: 1.56rem;width: 0.78rem;float: left;margin-left: 0.48rem;}
 .background .box_content .box .small .two{height: 0.56rem;width: 0.78rem;margin-top: 0.12rem;background-image:url(image/two@1x.png);background-size: 100%;float: left;}
-.background .box_content .box .small .two_font{font-size: 0.24rem;color:#fd6667;text-align: center;}
+.background .box_content .box .small .two_m{height: 0.68rem;width: 0.8rem;margin-top: 0.88rem;}
+.background .box_content .box .small .two_m .two_font{font-size: 0.24rem;color:#fd6667;text-align: center;}
 .background .box_content .box .last{height: 1.56rem;width: 0.94rem;float: left;margin-left: 0.46rem;}
-.background .box_content .box .last .pic{{height: 0.68rem;width: 0.94rem;background-image:url(image/last@1x.png);background-size: 100%;float: left;}
+.background .box_content .box .last .pic{height: 0.68rem;width: 0.94rem;background-image:url(image/last@1x.png);background-size: 100%;float: left;}
+.background .box_content .box .last .last_m{height: 0.68rem;width: 0.94rem;margin-top: 0.86rem;}
+.background .box_content .box .last .last_m	.last_pic{font-size: 0.24rem;color:#fd6667;text-align: center;}
+.background .rule{margin-top: 0.4rem;width: 1.8rem;height: 0.6rem;background-color:#928f8a;margin-left: auto;margin-right: auto;border-radius: 0.05rem;}
+.background .rule .font{font-size: 0.24rem;color:#faf4e9;text-align: center;line-height: 0.6rem;}
+.background .bottom{margin-bottom: 0.48rem;}
