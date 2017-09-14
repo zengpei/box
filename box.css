@@ -22,7 +22,11 @@ body{height: 100%;width: 100%;}
 .background .box_content .box .date{height: 1.56rem;width: 0.8rem;float: left;}
 .background .box_content .box .date .one{height: 0.68rem;width: 0.8rem;background-image: url(image/boxOne@1x.png);background-size: 100%;position: relative;float: left;}
 .background .box_content .box .date .one .Oval{position: absolute;top: 0.5rem;left: 0.6rem;width: 0.28rem;height: 0.28rem;background-image: url(image/Oval@1x.png);background-size: 100%;}
-.background .box_content .box .one  .Oval .gou{border-right: 0.03rem solid #e9e0ce;border-bottom: 0.03rem solid #e9e0ce;height: 0.18rem;width: 0.08rem;transform: rotate(45deg);position: absolute;right:0.08rem;}
-.background .box_content .box .two{height: 0.56rem;width: 0.78rem;margin-left: 0.48rem;margin-top: 0.12rem;background-image:url(image/two@1x.png);background-size: 100%;float: left;}
-.background .box_content .box .day{margin-top: 0.2rem;height: 0.68rem;width: 0.8rem;}
-.background .box_content .box .day .font{font-size: 0.24rem;color:0.24rem;color: #666;text-align: center;}
+.background .box_content .box .date .one .Oval .gou{border-right: 0.03rem solid #e9e0ce;border-bottom: 0.03rem solid #e9e0ce;height: 0.18rem;width: 0.08rem;transform: rotate(45deg);position: absolute;right:0.08rem;}
+.background .box_content .box .date .day_m{height: 0.68rem;width: 0.8rem;margin-top: 0.88rem;}
+.background .box_content .box .date .day_m .font{font-size: 0.24rem;color:#666;text-align: center;}
+.background .box_content .box .small{height: 1.56rem;width: 0.78rem;float: left;margin-left: 0.48rem;}
+.background .box_content .box .small .two{height: 0.56rem;width: 0.78rem;margin-top: 0.12rem;background-image:url(image/two@1x.png);background-size: 100%;float: left;}
+.background .box_content .box .small .two_font{font-size: 0.24rem;color:#fd6667;text-align: center;}
+.background .box_content .box .last{height: 1.56rem;width: 0.94rem;float: left;margin-left: 0.46rem;}
+.background .box_content .box .last .pic{{height: 0.68rem;width: 0.94rem;background-image:url(image/last@1x.png);background-size: 100%;float: left;}
