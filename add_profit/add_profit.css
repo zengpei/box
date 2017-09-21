@@ -1,0 +1,42 @@
+*{margin:0;}
+*{padding:0;}
+*{font-family:"微软雅黑",sans-serif;}
+body{width: 100%;height: 100%;}
+.navigation{height:1.18rem;width: 100%;background-color: #293859;}
+.background{height: 100%;width: 100%;background-image: url(image/AF@1X.png);background-repeat: no-repeat;background-size: 100%;}
+.background .circle{padding-top: 1.26rem;height: 0.82rem;width: 6.44rem;margin-left: 0.72rem;}
+.background .circle .radius{height: 0.72rem;width: 0.72rem;border-radius: 50%;background-color: #d8d8d8;border:solid 0.04rem #fff;float: left;margin-top: 0.1rem;}
+.background .circle .bonus{margin-left: 0.9rem;width: 5.1rem;height: 0.82rem;}
+.background .circle .bonus .top{font-size: 0.3rem;color:#e93835;}
+.background .circle .bonus .lucky{font-size: 0.3rem;color:#666;text-align: center;}
+.background .circle .name{width: 0.6rem;margin-left: 0.12rem;height: 0.72rem;float: left;}
+.background .circle .name .font{font-size: 0.24rem;color:#333;}
+.background .circle .name .date{font-size: 0.24rem;color: #999;}
+.background .circle .take{margin-left: 1.46rem;width: 1.2rem;height: 0.4rem;border:0.02rem solid #e93835;float: left;margin-top: 0.1rem;}
+.background .circle .take .font{font-size: 0.24rem;color: #e93835;line-height: 0.4rem;text-align: center;}
+.background .circle .result{margin-left:0.4rem;border:none;}
+.background .award{padding-top: 0.2rem;}
+.background .circle .border{border:0.02rem solid #333;}
+.background .circle .take .color{color:#333;}
+.background .detail{height: 0.7rem;border-bottom: 0.01rem solid #f4f4f4;}
+.background .detail .no-border{height: 0.6rem;width: 0.6rem;border-radius: 50%;background-color: #d8d8d8;float: left;}
+.background .distance{padding-top:0.1rem;}
+.background .newRegister{background-image: url(image/85@1x.png);background-size: 100%;height: 2.94rem;width: 100%;}
+.background .bottom{margin-top: 0.34rem;height: 0.5rem;width: 5.18rem;margin-left:auto;margin-right: auto;margin-bottom: 0.48rem;}
+.background .bottom .log{height: 0.5rem;width: 0.5rem;background-image: url(image/315@1x.png);background-size: 100%;float: left;}
+.background .bottom .note{margin-left: 0.1rem;width: 0.96rem;height: 0.5rem;float: left;}
+.background .bottom .note .top{height: 0.3rem;width: 0.96rem;}
+.background .bottom .note .top .heng{background-image: url(image/heng.png);width:0.24rem;height:0.3rem;background-size: 100%;margin-top: 0.1rem;background-repeat: no-repeat;float: left;}
+.background .bottom .note .top .da{background-image: url(image/da.png);}
+.background .bottom .note .top .jin{background-image: url(image/jin.png);}
+.background .bottom .note .top .fu{background-image: url(image/fu.png);}
+.background .bottom .note .H{background-image: url(image/H@1X.png);width:0.1rem;height:0.1rem;background-size: 100%;background-repeat: no-repeat;float: left;}
+.background .bottom .note .d{background-image: url(image/d@1X.png);}
+.background .bottom .note .F{background-image: url(image/f@1X.png);}
+.background .bottom .note .a{background-image: url(image/a@1X.png);}
+.background .bottom .note .x{background-image: url(image/x@1X.png);}
+.background .bottom .note .c{background-image: url(image/c@1X.png);}
+.background .bottom .note .o{background-image: url(image/o@1X.png);}
+.background .bottom .note .m{background-image: url(image/m@1X.png);}
+.background .bottom .right{margin-left: 0.18rem;height: 0.42rem;width: 3.38rem;margin-top: 0.04rem;float: left;border-left: 0.01rem solid #999;}
+.background .bottom .right .font{margin-left: 0.18rem;font-size: 0.24rem;line-height: 0.42rem;color:#666;}
